@@ -95,7 +95,7 @@ function App() {
             <h1 className="love-text">I Love you priya ❤️</h1>
             <div className="details-text">
               <p>You got the chance to have a movie date with Tushar this Valentine’s Day 💕</p>
-              <span className="phone-number">Save: 7400115822</span>
+              <span className="phone-number"></span>
               <p>Contact him fast 📞</p>
             </div>
           </div>
