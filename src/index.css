@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Pacifico&display=swap');
+
+:root {
+  --primary-color: #ff4757;
+  --secondary-color: #2f3542;
+  --bg-gradient: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  --valentine-gradient: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  --heart-color: #ff6b81;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background: #ffefff;
+  background: -webkit-linear-gradient(to right, #ffefff, #ffe0e9);
+  background: linear-gradient(to right, #ffefff, #ffe0e9);
+  color: var(--secondary-color);
+  overflow: hidden;
+  /* Prevent scrollbars when button moves */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+button {
+  border-radius: 50px;
+  /* Pill shape */
+  border: 1px solid transparent;
+  padding: 0.8em 2em;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
